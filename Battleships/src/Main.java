@@ -13,6 +13,7 @@ public class Main {
 			Carrier patrol = new Carrier();
 			do{
 				loop1 = 1;
+				System.out.println("HOLY SHIT NEW INFORMATION");
 				System.out.print("Enter row: ");
 				patrol.setFrontRow(sc.nextInt());
 				row = patrol.getFrontRow();
